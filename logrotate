@@ -1,0 +1,10 @@
+/var/log/ldap-connector/*.log {
+    missingok
+    daily
+    rotate 7
+    notifempty
+    sharedscripts
+    postrotate
+        service ldap-connector restart > /dev/null
+    endscript
+}

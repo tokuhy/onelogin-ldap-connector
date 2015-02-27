@@ -1,0 +1,7 @@
+# token is different for each servers.
+TOKEN=""
+
+# common setting
+DIR_EXEC=""
+OBJCLASS="person,user,inetOrgPerson,organizationalPerson,posixAccount,shadowAccount"
+INTERVAL=20
